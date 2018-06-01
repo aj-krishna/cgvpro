@@ -771,7 +771,7 @@ void menu(int n)
     }
 }
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
     printf("Enter the number of elements you'd like to see: ");
     scanf("%d", &n);
@@ -796,4 +796,5 @@ void main(int argc, char **argv)
     glutSpecialFunc(SpecialInput);
     glEnable(GL_DEPTH_TEST);
     glutMainLoop();
+    return 0;
 }
