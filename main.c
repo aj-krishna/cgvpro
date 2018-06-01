@@ -121,43 +121,6 @@ void display1()
     font = 1;
     sprintf(msg, "%s", "UNDER THE GUIDANCE OF: ");
     msgtext(160 * n / 100, -20 * n / 100, 0, msg);
-    /*switch (type)
-    {
-    case 'r':
-        drawtext(0, n, 0, "Randomized");
-        break;
-    case 'q':
-        drawtext(0, n, 0, "Quick Sort | Execution time in ms=");
-        break;
-    case 'b':
-        drawtext(0, n, 0, "Bubble Sort | Execution time in ms=");
-        break;
-    case 'g':
-        drawtext(0, n, 0, "Gravity Sort | Execution time in ms=");
-        break;
-    case 's':
-        drawtext(0, n, 0, "Selection Sort | Execution time in ms=");
-        break;
-    case 'i':
-        drawtext(0, n, 0, "Insertion Sort | Execution time in ms=");
-        break;
-    case 'h':
-        drawtext(0, n, 0, "Heap Sort | Execution time in ms=");
-        break;
-    case 'm':
-        drawtext(0, n, 0, "Merge Sort | Execution time in ms=");
-        break;
-    }
-    for (i = 0; i < n; i++)
-    {
-        scale(a[i]);
-        translate(i);
-        nsq[0][0] = 0 + 2 * i;
-        nsq[1][0] = 0;
-        nsq[0][1] = 1 + 2 * i;
-        nsq[1][1] = 0;
-        cube();
-    }*/
     glFlush();
     glutSwapBuffers();
 }
