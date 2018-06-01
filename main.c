@@ -789,7 +789,7 @@ void main(int argc, char **argv)
     glutAddMenuEntry("Descending", 2);
     glutAttachMenu(GLUT_RIGHT_BUTTON);
     myInit();
-    randomize(a, n);
+    randomize();
     glutDisplayFunc(display1);
     glutReshapeFunc(myReshape);
     glutKeyboardFunc(keys);
