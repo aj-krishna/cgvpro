@@ -1,3 +1,5 @@
+//6th semester CGV mini-project
+
 #include <GL/glut.h>
 #include <stdio.h>
 #include <stdlib.h>
