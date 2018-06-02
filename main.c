@@ -1,4 +1,5 @@
-//6th semester CGV mini-project
+/*6th semester CGV mini-project
+Visualization of Various Sorting Algorrithms*/
 
 #include <GL/glut.h>
 #include <stdio.h>
