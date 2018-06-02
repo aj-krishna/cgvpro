@@ -793,6 +793,7 @@ int main(int argc, char **argv)
     glutDisplayFunc(display1);
     glutReshapeFunc(myReshape);
     glutKeyboardFunc(keys);
+    //glutMouseFunc(mouse);
     glutSpecialFunc(SpecialInput);
     glEnable(GL_DEPTH_TEST);
     glutMainLoop();
