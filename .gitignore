@@ -1,3 +1,4 @@
 main
 .directory
 *.patch
+*.mbox
