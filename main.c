@@ -1,5 +1,7 @@
 /*6th semester CGV mini-project
-Visualization of Various Sorting Algorithms*/
+Visualization of Various Sorting Algorithms
+AJAY K
+1BI15CS012*/
 
 #include <GL/glut.h>
 #include <stdio.h>
