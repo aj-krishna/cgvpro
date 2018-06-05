@@ -2,3 +2,4 @@ main
 .directory
 *.patch
 *.mbox
+checkpatch.pl
